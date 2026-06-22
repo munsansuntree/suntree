@@ -957,9 +957,18 @@ ul, ol {
     }
     
     .schedule-table th, .schedule-table td {
-        padding: 12px;
-        font-size: 14px;
-        white-space: nowrap;
+        padding: 10px 4px;
+        font-size: 13px;
+        white-space: normal;
+        word-break: keep-all;
+    }
+
+    .doctor-schedule td {
+        font-size: 12px;
+    }
+
+    .doctor-schedule td strong {
+        display: block;
     }
     
     .schedule-notice {
